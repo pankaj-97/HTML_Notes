@@ -1,2 +1,6 @@
 
 if there is a space say in name of font family then we will have to use ""
+
+to use google fonts--
+1. copy link of font in html at the top 
+   then use font-family from css file
