@@ -1,0 +1,37 @@
+comments in html
+use <!-- and to end a comment, you need to use -->
+
+main tag in html
+main HTML5 tag helps search engines and other developers find the main content of your page
+Example
+<main>
+  <h1>Hello World</h1>
+  <p>Hello Paragraph</p>
+</main>
+
+Linking to internal section of page using acnchor tag-->
+o create an internal link, you assign a link's href attribute to a hash symbol # 
+plus the value of the id attribute for the element that you want to internally link to
+<a href="#contacts-header">Contacts</a>
+...
+<h2 id="contacts-header">Contacts</h2>
+
+Turning an imge into link =->
+ex- a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."></a>
+
+form making 
+to creat a box --><input/>
+to create box of specifuc type
+<input type="text"/>
+to add a place holder input that is text that appears on the box
+<input type ="text" place holder=""/>
+to create a submit box-->
+<button type="submit"> submit</button>
+form comes under form tags 
+<form action="">
+</form>( action add the link of the server  to which data is to be submitted )
+we can make the field required to be filled by putting required inside input tag 
+<input type="text" required>
+
+
+
