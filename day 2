@@ -2,14 +2,63 @@ type of input
 --text
 --check-box
 --radio(dot)
-to tell for what the input is we use label
-<label for="*name of label**">information on label</label>
-<input id="" name =**name of label** />
-ex-->
-  label for="css" > do you like css </label>
-  <input type="checkbox" id="css" name="css"/>
+
 
 #TEXT AREA 
-<label for="comments"> your comments</label>
- <textarea id="comments" name="comments"></textarea> </li>
+
+ <textarea id="comments" name="comments"></textarea> 
+ 
+ 
+label and button nd checkbox
+ 
+ each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically
+ associate the radio button input with the label element surrounding it.
+
+All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, 
+selecting any single radio button will automatically deselect the other buttons within the same 
+group ensuring only one answer is provided by the user. ""
+ex--
+<label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
          
+VALUE
+
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. 
+Inputs of type radio and checkbox report their values from the value attribute.
+ex-->
+<label for="indoor"> 
+  <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+
+CHECKED
+you can set a checkbox or radio button to be checked by default using the checked attribute.
+To do this, just add the word "checked" to the inside of an input element. For example:
+example--> set that option bt default
+<input type="radio" name="test-name" checked>
+
+
+At the top of your document, you need to tell the browser which version of HTML your page is using,
+ou tell the browser this information by adding the <!DOCTYPE ...> tag on the first line, where the ... part is the version of HTML. 
+For HTML5, you use <!DOCTYPE html>.
+<!DOCTYPE html>
+<html>
+  <!-- Your HTML code goes here -->
+</html>
+
+Any markup with information about your page would go into the head tag. 
+Then any markup with the content of the page (what displays for a user) would go into the body tag.
+Metadata elements, such as link, meta, title, and style, typically go inside the head element.
+
+"FORMAT"
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata elements -->
+  </head>
+  <body>
+    <!-- page contents -->
+  </body>
+</html>
+
+
