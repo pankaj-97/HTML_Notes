@@ -1,0 +1,15 @@
+type of input
+--text
+--check-box
+--radio(dot)
+to tell for what the input is we use label
+<label for="*name of label**">information on label</label>
+<input id="" name =**name of label** />
+ex-->
+  label for="css" > do you like css </label>
+  <input type="checkbox" id="css" name="css"/>
+
+#TEXT AREA 
+<label for="comments"> your comments</label>
+ <textarea id="comments" name="comments"></textarea> </li>
+         
