@@ -1,0 +1,18 @@
+comments in java sscript
+// single line 
+/* multi-line */
+
+We tell JavaScript to create or declare a variable by putting the keyword var in front of it, like so:
+var ourName;
+
+When JavaScript variables are declared, they have an initial value of undefined. 
+If you do a mathematical operation on an undefined variable your result will be NaN which means "Not a Number".
+If you concatenate a string with an undefined variable, you will get a literal string of "undefined".
+
+use camel case for naming variable and functions
+
+jvaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
+
+when JavaScript variables are declared, they have an initial value of undefined. 
+If you do a mathematical operation on an undefined variable your result will be NaN which means "Not a Number".
+If you concatenate a string with an undefined variable, you will get a literal string of "undefined".
