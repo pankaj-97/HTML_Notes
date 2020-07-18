@@ -1,0 +1,43 @@
+CSS Variables are a powerful way to change many CSS style properties at once by changing only one value.
+eg-->  --penguin-beak: yellow;
+
+After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
+background: var(--penguin-skin);
+
+fall backvalue-->
+This fallback is not used to increase browser compatibility, and it will not work on IE browsers. 
+Rather, it is used so that the browser has a color to display if it cannot find your variable.
+background: var(--penguin-skin, black);
+
+browser fall back
+any properties that it doesn't recognize or support. For example, 
+if you use a CSS variable to assign a background color on a site, 
+Internet Explorer will ignore the background color because it does not support CSS variables.
+In that case, the browser will use whatever value it has for that property.
+If it can't find any other value set for that property, it will revert to the default value, which is typically not ideal.
+This means that if you do want to provide a browser fallback, it's as easy as providing another more widely supported value 
+immediately before your declaration. That way an older browser will have something to fall back on, while a newer browser
+will just interpret whatever declaration comes later in the cascade.
+ex-->
+red-box {
+    background:red;
+    background: var(--red-color);}
+    
+ 
+ When you create a variable, it is available for you to use inside the selector 
+ in which you create it. It also is available in any of that selector's descendants
+
+CSS variables are often defined in the :root element.
+:root they will set the value of that variable for the whole page.
+  ex-->
+        :root {
+    --penguin-skin: gray;
+    --penguin-belly: pink;
+    --penguin-beak: orange;
+  }
+
+You can then over-write these variables by setting them again within a specific element.
+
+
+
+ 
