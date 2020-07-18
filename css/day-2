@@ -1,0 +1,22 @@
+in elements having different classes the class lower in css will override
+id will overide all the classes and inline style elemnt will overide both class and id 
+an elemnt can have only one class but can have more than one id 
+In many situations, you will use CSS libraries. These may accidentally override your own CSS. 
+So when you absolutely need to be sure that an element has specific CSS, you can use !important
+  ex- color: red !important;
+  
+  HEx colors
+  
+  In CSS, we can use 6 hexadecimal digits to represent colors, 
+  first two for the red (R), then  green (G), and last two for  blue (B) components. 
+  hexdigist goes from (0-9) then (A,B,C,D,E)
+   we can alo use 3 hexdigits with firstone for red,second for green ,third for blue.
+   For example, #000000 is black and is also the lowest possible value. You can find more information about the RGB color system here.
+   
+ Another way you can represent colors in CSS is by using RGB values.
+The RGB value for black looks like this:
+rgb(0, 0, 0)
+The RGB value for white looks like this:
+rgb(255, 255, 255)
+Instead of using six hexadecimal digits like you do with hex code, with RGB you specify the brightness of each color with a number between 0 and 255.
+  
