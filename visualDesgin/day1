@@ -1,0 +1,55 @@
+text alignment -->
+text is often a large part of web content. CSS has several options 
+for how to align it with the text-align property.
+text-align: justify; causes all lines of text except the last line to meet the left and right edges of the line box.
+text-align: center; centers the text
+text-align: right; right-aligns the text
+And text-align: left; (the default) left-aligns the text.
+
+You can specify the width of an element using the width property in CSS.
+img {
+  width: 220px;
+}
+we can also adjust height-->
+img {
+  height: 20px;
+}
+
+strong tag is used for bold
+ex--> <strong >Stanford University</strong>
+ With the strong tag, the browser applies the CSS of font-weight: bold; 
+ 
+underline text, you can use the u tag. This is often used to signify that a section of text is important, or something to remember. 
+With the u tag, the browser applies the CSS of text-decoration: underline; to the element.
+<u> hi</u>
+
+To emphasize text, you can use the em tag. This displays text as italicized, 
+as the browser applies the CSS of font-style: italic; to the element.
+<em>hi</em>
+
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the s tag. 
+It shows that a section of text is no longer valid. With the s tag, 
+the browser applies the CSS of text-decoration: line-through; to the element.
+<s> hi</s>
+
+You can use the hr tag to add a horizontal line across the width of its containing element.
+This can be used to define a change in topic or to visually separate groups of content.
+used to hve a line between two element say title and parahraph.
+ex <hr/>
+
+rgba stands for:
+  r = red
+  g = green
+  b = blue
+  a = alpha/level of opacity
+The RGB values can range from 0 to 255. The alpha value can range from 1, 
+which is fully opaque or a solid color, to 0, which is fully transparent or clear. 
+rgba() is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.
+
+
+
+
+
+
+
+ 
