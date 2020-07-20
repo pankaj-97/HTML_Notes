@@ -1,0 +1,45 @@
+shadow there are two shadows
+
+Text-shadow 
+it has three  4 values x-axis,y-axis,blurr, color
+
+x-axis--> postive right , negtice left
+y-axis-->postive down , negative up
+text-shadow:
+
+Box shadow -->
+The box-shadow property applies one or more shadows to an element.
+
+The box-shadow property takes values for
+offset-x (how far to push the shadow horizontally from the element),
+offset-y (how far to push the shadow vertically from the element),
+blur-radius,
+spread-radius and
+color, in that order.
+The blur-radius and spread-radius values are optional.
+Multiple box-shadows can be created by using commas to separate properties of each box-shadow element.
+ex->box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+We can change the opacity of a text by using 
+opacity where 
+1:completly -opaque
+0: completley tarnsparent 
+and there can be value in-between
+ex- opacity:0.7;
+
+text-transform:uppercase  ;
+it will transform the text without changing the text by typing
+Value	Result
+lowercase	"transform me"
+uppercase	"TRANSFORM ME"
+capitalize	"Transform Me"
+initial	Use the default value
+inherit	Use the text-transform value from the parent element
+none	Default: Use the original text
+
+font-weight property sets how thick or thin characters are in a section of text.
+ex- font-weight-500(px is not used along with it)
+
+
+
+
