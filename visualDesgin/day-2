@@ -40,6 +40,39 @@ none	Default: Use the original text
 font-weight property sets how thick or thin characters are in a section of text.
 ex- font-weight-500(px is not used along with it)
 
+line-height-->it changes the amount of vertical space that each line of text gets.in short spacing between lines
+ex-->line-height:30px;
+
+Pseudo-classes:
+pseudo-class is a keyword that can be added to selectors(elemnt in css)
+, in order to select a specific state of the element.
+for-ex-->
+a:hover {
+  color: red;
+}
+Here's the CSS to change the color of the anchor tag to red during its hover state.
+
+
+position:relative;
+Block-level items automatically start on a new line (think headings, paragraphs, and divs) while inline items 
+sit within surrounding content (like images or spans). The default layout of elements in this way is called the normal flow 
+of a document, but CSS offers the position property to override it.
+When the position of an element is set to relative, it allows you to specify how CSS should move it relative 
+to its current position in the normal flow of the page. 
+It pairs with the CSS offset properties of left or right, and top or bottom
+ex-->p {
+  position: relative;
+  bottom: 10px;
+}
+top--means bootom;
+bottom-top;
+vice-versa for left and right
+
+
+
+
+
+
 
 
 
