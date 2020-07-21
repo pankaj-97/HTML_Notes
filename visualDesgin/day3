@@ -1,0 +1,24 @@
+One nuance with absolute positioning is that it will be locked relative to its closest positioned ancestor. 
+If you forget to add a position rule to the parent item, (this is typically done using position: relative;), 
+the browser will keep looking up the chain and ultimately default to the body tag.
+this we have add postion :relative in it's paert w.rt to who we want to position it.
+ex-->#searchbar {
+  position:absolute;
+  top:50px;
+  right:50px; }
+  section {
+    position: relative;
+  }
+  and it also remove element from the normal flow 
+  
+  Fixed-Positioning--->
+  
+  the next layout scheme that CSS offers is the fixed position, which is a type of absolute positioning that locks 
+  an element relative to the browser window. Similar to absolute positioning, 
+  it's used with the CSS offset properties and also removes the element from the normal flow of the document.
+  Other items no longer "realize" where it is positioned, which may require some layout adjustments elsewhere.
+  
+  Difference between absolute and fixed-->
+  One key difference between the fixed and absolute positions is 
+  that an element with a fixed position won't move when the user scrolls.
+  
