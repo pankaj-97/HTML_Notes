@@ -27,7 +27,22 @@ ex-->#searchbar {
   When elements are positioned to overlap (i.e. using position: absolute | relative | fixed | sticky), 
   the element coming later in the HTML markup will, by default, appear on the top of the other elements.
   However, the z-index property can specify the order of how elements are stacked on top of one another. 
-  It must be an integer (i.e. a whole number and not a decimal), and higher values for the z-index property of an element move it higher in the stack than those with lower values.
+  It must be an integer (i.e. a whole number and not a decimal), and higher values for the z-index property of an element move
+  it higher in the stack than those with lower values.
+  
+  Color model-->
+  primary color-->red,green ,blue
+  secondary-color-->color combined by any two primary color(is complimentary to another secondary color which is not used..and they are awlays at the opposite in color wheel
+  )
+  tertiary:color :ertiary colors are the result of combining a primary color with one of its secondary color neighbors. 
+  
+  
+  contrast can be form by 
+  1.placing complenntary color adjacent to each other .
+  2. One example that can use tertiary colors is called the split-complementary color scheme. 
+  This scheme starts with a base color, then pairs it with the two colors that are adjacent to its complement.
+  The three colors provide strong visual contrast in a design, but are more subtle than using two complementary colors.
+  
 
 
   
