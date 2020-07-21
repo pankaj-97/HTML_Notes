@@ -22,3 +22,12 @@ ex-->#searchbar {
   One key difference between the fixed and absolute positions is 
   that an element with a fixed position won't move when the user scrolls.
   
+  z-index--> to set which element should come over nother when they are adjusted using posion using relative ,absolute or fixed.
+  to use z-index in an element it should hava a  position attribute in itself.
+  When elements are positioned to overlap (i.e. using position: absolute | relative | fixed | sticky), 
+  the element coming later in the HTML markup will, by default, appear on the top of the other elements.
+  However, the z-index property can specify the order of how elements are stacked on top of one another. 
+  It must be an integer (i.e. a whole number and not a decimal), and higher values for the z-index property of an element move it higher in the stack than those with lower values.
+
+
+  
