@@ -1,0 +1,4 @@
+linear grandient to display different colors together changing from one point to another.
+Syntax-->background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+background:linear-gradient(45deg,red,black);
+ background:linear-gradient(35deg,   #CCFFFF,#FFCCCC);
