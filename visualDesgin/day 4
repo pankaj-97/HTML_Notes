@@ -59,4 +59,83 @@ When the ::before and ::after pseudo-elements are used to make shapes, the conte
  This property is usually used to add things like a photo or text to the selected element. 
  When the ::before and ::after pseudo-elements are used to make shapes, the content property is still required, but it's set to an empty string
  
+ animation--->
+
+ TO animate an element, you need to know about the animation properties and the @keyframes rule. 
+ The animation properties control how the animation should behave and the @keyframes rule controls what happens during that animation.
+ animation-name sets the name of the animation, which is later used by @keyframes to tell CSS which rules go with which animations.
+animation-duration sets the length of time for the animation.
+@keyframes is how to specify exactly what happens within the animation over the duration.
+This is done by giving CSS properties for specific "frames" during the animation, 
+with percentages ranging from 0% to 100%. If you compare this to a movie, 
+the CSS properties for 0% is how the element displays in the opening scene.
+The CSS properties for 100% is how the element appears at the end, right before the credits roll.
+
+ex-->
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+animation with hover -->
+ex-->
+img:hover {
+    animation-name: width;
+    animation-duration: 500ms;
+  }
+
+  @keyframes width {
+    100% {
+      width: 40px;
+    }
+  }
+  the animation-fill-mode specifies the style applied to an element when the animation has finished.
+  animation-fill-mode: forwards;it keep the animation even after end time.
+  ex-->
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    /* Only change code below this line */
+     animation-fill-mode:forwards;
+    /* Only change code above this line */
+  }
+  
+  animation-iteration-count-->allows you to control how many times you would like to loop through the animation.
+  animation-iteration-count: 3;
+In this case the animation will stop after running 3 times,
+but it's possible to make the animation run continuously by setting that value to infinite.
+animation-timing-function property controls how quickly an animated element changes over the duration of the animation. 
+If the animation is a car moving from point A to point B in a given time (your animation-duration),
+the animation-timing-function says how the car accelerates and decelerates over the course of the drive.
+There are a number of predefined keywords available for popular options. For example, the default value is ease,
+which starts slow, speeds up in the middle, and then slows down again in the end. Other options include ease-out, 
+which is quick in the beginning then slows down, ease-in, which is slow in the beginning, then speeds up at the end, 
+or linear, which applies a constant animation speed throughout.
+
+
+bezzier curves ???
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
