@@ -34,7 +34,26 @@ This tag is meant to wrap around the main navigation links in your page.
 the footer element has a built-in landmark feature that allows assistive devices to quickly navigate to it. 
 It's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
-***© to ge this symbol we use &copy.
+***© to ge this symbol we use &copy
+for audio we use audio tag
+<audio id="meowClip" controls>
+  <source src="audio/meow.mp3" type="audio/mpeg" />
+  <source src="audio/meow.ogg" type="audio/ogg" />
+</audio>
+here controls disply start /puse button/mute /volume  on a audio  bar or strip
+
+HTML5 introduced the figure element, along with the related figcaption. Used together, 
+these items wrap a visual representation (like an image, diagram, or chart) along with its caption. 
+This gives a two-fold accessibility boost by both semantically grouping related content, and providing a text alternative that explains the figure.
+<figure>
+  <img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+  <br>
+  <figcaption>
+    Master Camper Cat demonstrates proper form of a roundhouse kick.
+  </figcaption>
+</figure>
+
+
 
 
 
