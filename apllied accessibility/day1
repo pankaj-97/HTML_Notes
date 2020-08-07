@@ -54,6 +54,85 @@ This gives a two-fold accessibility boost by both semantically grouping related 
 </figure>
 
 
+Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
+The fieldset tag surrounds the entire grouping of radio buttons to achieve this. It often uses a legend tag to provide a description for the grouping, 
+which is read by screen readers for each choice in the fieldset element.
+ex-->
+form>
+  <fieldset>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+</form>
+
+there is a type called date in input gives a form in dd/mm/yy formate and allow user to pick the date .
+
+Time Element --->
+The time element along with a datetime attribute to standardize times. This is an inline element that can wrap a date or time on a page.
+A valid format of that date is held by the datetime attribute. 
+This is the value accessed by assistive devices. 
+It helps avoid confusion by stating a standardized version of a time, even if it's written in an informal or colloquial manner in the text.
+ex-->
+
+    <p>Thank you to everyone for responding to Master Camper Cat's survey. The best day to host the vaunted Mortal Kombat tournament is <time datetime= "2016-09-15">Thursday, 
+    September 15<sup>th</sup></time>. May the best ninja win!</p>
+    
+    o/p-->
+    Thank you to everyone for responding to Master Camper Cat's survey. 
+    The best day to host the vaunted Mortal Kombat tournament is Thursday, September 15th. May the best ninja win!
+    
+    we can use css property called --> just change the value of top and others things to move it out of the screen .
+    and using over flow:hidden
+    
+    {
+    The overflow property specifies what should happen if content overflows an element's box.
+   This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.4
+   the overflow property only works for block elements with a specified height.
+   
+  # visible
+The overflow is not clipped. It renders outside the element's box. This is default
+#hidden
+The overflow is clipped, and the rest of the content will be invisible
+
+#scroll
+The overflow is clipped, but a scroll-bar is added to see the rest of the content
+
+#auto
+If overflow is clipped, a scroll-bar should be added to see the rest of the content
+#initial
+Sets this property to its default value. Read about initial
+
+#inherit
+Inherits this property from its parent element
+
+
+accesskey 
+HTML offers the accesskey attribute to specify a shortcut key to activate or bring focus to an element. This can make navigation more efficient for keyboard-only users.
+HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones. This includes links, buttons, and form controls
+.to acees the link directly with the key 
+ex--><button accesskey="b">Important Button</button>
+
+ p:focus {
+    background-color: yellow;
+  }
+  
+  use in corresspondence with tabindex
+  tabindex=0-->default focus
+  tabindex=1-->first focus on it . Similary two,three
+  Note: A negative tabindex value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. 
+
+
+    
+    
+    
+    }
+    
+
 
 
 
